@@ -34,8 +34,6 @@ for x in range(5):
     print(f'Name: {name}')
     print(f'Price: {price}')
     print(f"% change in 24hr: {change}")
-    print(change_to_decimal)
-    print(changeP)
     print(f"Price changed by: ${calculation}")
     print()
     print()
