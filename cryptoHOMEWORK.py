@@ -44,7 +44,7 @@ for x in range(5):
 btc_string = tablecells[2].text.replace(',','')
 btc_no_dollarsign = float(btc_string.replace('$', ''))
 
-if btc_no_dollarsign < 40000:
+if btc_no_dollarsign < 20000:
     client = Client(keys.accountSID, keys.authToken)
 
     twilionumber = '+16693568831'
@@ -57,7 +57,7 @@ if btc_no_dollarsign < 40000:
 # Ethereum text
 eth_string = tablecells[12].text.replace(',','')
 eth_no_dollarsign = float(eth_string.replace('$', ''))
-if eth_no_dollarsign < 3000:
+if eth_no_dollarsign < 1000:
     client = Client(keys.accountSID, keys.authToken)
 
     twilionumber = '+16693568831'
